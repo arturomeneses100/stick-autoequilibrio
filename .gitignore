@@ -1,0 +1,34 @@
+# CCS PIC C (salidas de compilación)
+*.cof
+*.err
+*.esym
+*.lst
+*.sym
+*.tre
+*.xsym
+*.STA
+*.PJT
+*.ccspjt
+*.mcs
+*.cod
+# Si quieres publicar el .hex compilado, borra la siguiente línea
+*.hex
+
+# Arduino / PlatformIO
+build/
+.pio/
+.vscode/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Banco de pruebas compilado
+sim/test_core
+sim/test_core.exe
+
+# Sistema
+.DS_Store
+Thumbs.db
+desktop.ini
