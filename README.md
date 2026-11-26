@@ -4,7 +4,7 @@ Un péndulo invertido que se mantiene de pie sobre una esquina acelerando y fren
 
 | Firmware | Microcontrolador | Lazo | Aritmética | Ajuste |
 |---|---|---|---|---|
-| [`firmware/esp32`](firmware/esp32/StickBalance_ESP32) | ESP32 (Arduino) | 500 Hz en tarea FreeRTOS | flotante | USB o Bluetooth, guarda en NVS |
+| [`firmware/esp32`](firmware/esp32/StickBalance_ESP32) | ESP32  | 500 Hz en tarea FreeRTOS | flotante | USB o Bluetooth, guarda en NVS |
 | [`firmware/pic`](firmware/pic/stick_pic) | PIC18F45K22 o PIC18F4550 (CCS PIC C) | 500 Hz por Timer2 | punto fijo 32 bits | UART / HC-05, guarda en EEPROM |
 
 Es una reimplementación de la idea de [remrc/One-Axis-Self-Balancing-Stick-DC](https://github.com/remrc/One-Axis-Self-Balancing-Stick-DC), pensada como práctica de la unidad *Desarrollo de aplicaciones de control de procesos utilizando sistemas embebidos*: lazo cerrado, realimentación de estado, filtrado de sensores, punto fijo y sintonía experimental.
